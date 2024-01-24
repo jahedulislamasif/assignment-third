@@ -2,249 +2,271 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment three</title>
-    <!-- manrope font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/edecd80311.js" crossorigin="anonymous"></script>
-    <!-- daisyUI and tailwind css -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- tailwind style -->
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                'bg-main': '#FF4240',
-              }
-            }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment three</title>
+  <!-- manrope font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/edecd80311.js" crossorigin="anonymous"></script>
+  <!-- daisyUI and tailwind css -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwind style -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'bg-main': '#FF4240',
           }
         }
-      </script>
-    <!-- custom style -->
-    <style>
-        .font-manrope{
-            font-family: 'Manrope', sans-serif;
-        }
-    </style>
+      }
+    }
+  </script>
+  <!-- custom style -->
+  <style>
+    .font-manrope {
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
 </head>
 
 <body class="font-manrope">
-    <header class="max-w-6xl lg:mx-auto">
-        <!-- nav section -->
-        <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a class="text-[#FF4240]">Home</a></li>
-                      <li><a>About</a></li>
-                      <li><a>Pages</a></li>
-                      <li><a>Blog</a></li>
-                      <li><a>Contact</a></li>
-                    </ul>
-                  </div>
-                  <a class=" text-xl lg:text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a class="text-[#FF4240] font-bold">Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Pages</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Contact</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end space-x-4">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                  <a class="btn bg-[#FF4240] text-white">Button</a>
-                </div>
-              </div>
-        </nav>
-        <!-- banner section -->
-         
-        
-            <div class="carousel relative lg:mt-20 p-2 ">
-               <!-- slide 1 -->
-                <div id="slide1" class="carousel-item relative w-full ">
-                  <img src="Images/1.png" class="w-full">
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❮</a> 
-                    <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
-                  </div>
-                </div>
-                </div>
-                <div class="lg:absolute m-2 lg:top-[450px]  lg:right-24 lg:w-2/5 bg-black rounded-xl">
-                    <h4 class="text-xl lg:text-2xl text-white font-extrabold pb-3 p-6">Meet all the heroes from the field</h4>
-                    <p class="text-white font-normal opacity-70 pt-0 p-6">To be a champion, I think you have to see the big picture. It's not about winning and losing; it's about every day hard work and about thriving on a challenge.</p>
-                </div>
-        
+  <header class="max-w-6xl lg:mx-auto">
+    <!-- nav section -->
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a class="text-[#FF4240]">Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class=" text-xl lg:text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-[#FF4240] font-bold">Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end space-x-4">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+        </div>
+      </div>
+    </nav>
+    <!-- banner section -->
 
 
-    </header>
-    <main>
-      <!-- professional section -->
-      <section class="max-w-6xl lg:mx-auto mt-20">
-        <div class="text-center w-8/12 mx-auto space-y-3">
-          <h2 class="text-[22px] lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
-          <p class="text-[16px] font-normal opacity-70">The best things in life aren't easy. My career kind of sums that up. From the start of it to the end of it, there were a lot of twists and turns, a lot of different adversities. Having overcome those, it makes you stronger.</p>
+    <div class="carousel relative lg:mt-20 p-2 ">
+      <!-- slide 1 -->
+      <div id="slide1" class="carousel-item relative w-full ">
+        <img src="Images/1.png" class="w-full">
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❮</a>
+          <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
         </div>
-        <div class=" grid grid-rows-1 lg:grid-cols-4 gap-1 mt-10  ">
-          <!-- card 1 -->
-          <div class="text-center flex justify-center items-center card  bg-base-100">
-            
-              <!-- <figure><img src="Images/circlered.png" alt="Shoes" /></figure> -->
-            <h3 class=" text-3xl font-extrabold bg-[url('Images/circlered.png')] bg-center bg-cover bg-no-repeat w-28 h-28 text-center flex justify-center items-center">87%</h3>
-            
-            <div class="card-body text-center items-center">
-              <h2 class="card-title text-xl font-semibold">
-                Prayer Facility
-                
-              </h2>
-              <p class="text[16px] opacity-70">Prayer spiritual thing. We allow you to that anytime.
-              </p>
-            
-            </div>
-          </div>
-          <!-- card 2 -->
-          <div class="text-center flex justify-center items-center card  bg-base-100">
-            
-              <!-- <figure><img src="Images/circlered.png" alt="Shoes" /></figure> -->
-            <h3 class=" text-3xl font-extrabold bg-[url('Images/circlegreen.png')] bg-center bg-cover bg-no-repeat w-28 h-28 text-center flex justify-center items-center">95%</h3>
-            
-            <div class="card-body text-center items-center">
-              <h2 class="card-title text-xl font-semibold">
-                Experienced Coach
-                
-              </h2>
-              <p class="text[16px] opacity-70">We have some world class coaches you can get best output from them.
-              </p>
-            
-            </div>
-          </div>
-          <!-- card 3 -->
-          <div class="text-center flex justify-center items-center card  bg-base-100">
-            
-              <!-- <figure><img src="Images/circlered.png" alt="Shoes" /></figure> -->
-            <h3 class=" text-3xl font-extrabold bg-[url('Images/circleyellow.png')] bg-center bg-cover bg-no-repeat w-28 h-28 text-center flex justify-center items-center">90%</h3>
-            
-            <div class="card-body text-center items-center">
-              <h2 class="card-title text-xl font-semibold">
-                Senior Player
-                
-              </h2>
-              <p class="text[16px] opacity-70">We have lots of senior players, They will guide you throughout your journey.
-              </p>
-            
-            </div>
-          </div>
-          <!-- card 4 -->
-          <div class="text-center flex justify-center items-center card  bg-base-100">
-            
-              <!-- <figure><img src="Images/circlered.png" alt="Shoes" /></figure> -->
-            <h3 class=" text-3xl font-extrabold bg-[url('Images/circleblue.png')] bg-center bg-cover bg-no-repeat w-28 h-28 text-center flex justify-center items-center">80%</h3>
-            
-            <div class="card-body text-center items-center">
-              <h2 class="card-title text-xl font-semibold">
-                Training Ground
-                
-              </h2>
-              <p class="text[16px] opacity-70">We have world class Training ground where you can have best experience.
-              </p>
-            
-            </div>
-          </div>
-          
-        </div>
-      </section>
-      <!-- program section -->
-      <section class="max-w-6xl lg:mx-auto mt-20">
-        <div class="text-center w-8/12 mx-auto space-y-3">
-          <h2 class="text-[22px] lg:text-4xl font-extrabold">Program Sections</h2>
-          <p class="text-[16px] font-normal opacity-70">Successful organizations understand the importance of implementation, not just strategy, and, moreover, recognize the crucial role of their people in this process.</p>
-        </div>
-        <div class="grid grid-rows-1 lg:grid-cols-2 mt-5">
+      </div>
+    </div>
+    <div class="lg:absolute m-2 lg:top-[450px]  lg:right-24 lg:w-2/5 bg-black rounded-xl">
+      <h4 class="text-xl lg:text-2xl text-white font-extrabold pb-3 p-6">Meet all the heroes from the field</h4>
+      <p class="text-white font-normal opacity-70 pt-0 p-6">To be a champion, I think you have to see the big picture.
+        It's not about winning and losing; it's about every day hard work and about thriving on a challenge.</p>
+    </div>
 
-          <div class="relative m-2">
-            <div class="">
-                <img src="Images/2.png" alt="">
-            </div>
-                
-              <div class="absolute bg-[#13131280] rounded-xl w-full lg:w-[560px] h-full lg:h-[330px] top-0  ">
-              <div class="p-6 ">
-                <h2 class="text-2xl lg:text-4xl text-white font-extrabold mb-5 lg:mb-8 mt-0 lg:mt-20">Junior Program</h2>
-              <p class="text-[14px] lg:text-[16px] lg:font-medium text-white opacity-70 mb-8 lg:mb-8">For junior, We have advanced level training and we also focus on basic very affectionately</p>
+
+
+  </header>
+  <main>
+    <!-- professional section -->
+    <section class="max-w-6xl lg:mx-auto mt-20">
+      <div class="text-center w-8/12 mx-auto space-y-3">
+        <h2 class="text-[22px] lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
+        <p class="text-[16px] font-normal opacity-70">The best things in life aren't easy. My career kind of sums that
+          up. From the start of it to the end of it, there were a lot of twists and turns, a lot of different
+          adversities. Having overcome those, it makes you stronger.</p>
+      </div>
+      <div class=" grid grid-rows-1 lg:grid-cols-4 gap-1 mt-10  ">
+        <!-- card 1 -->
+        <div class="text-center flex justify-center items-center card  bg-base-100">
+
+          <!-- <figure><img src="Images/circlered.png" alt="Shoes" /></figure> -->
+          <h3
+            class=" text-3xl font-extrabold bg-[url('Images/circlered.png')] bg-center bg-cover bg-no-repeat w-28 h-28 text-center flex justify-center items-center">
+            87%</h3>
+
+          <div class="card-body text-center items-center">
+            <h2 class="card-title text-xl font-semibold">
+              Prayer Facility
+
+            </h2>
+            <p class="text[16px] opacity-70">Prayer spiritual thing. We allow you to that anytime.
+            </p>
+
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="text-center flex justify-center items-center card  bg-base-100">
+
+          <!-- <figure><img src="Images/circlered.png" alt="Shoes" /></figure> -->
+          <h3
+            class=" text-3xl font-extrabold bg-[url('Images/circlegreen.png')] bg-center bg-cover bg-no-repeat w-28 h-28 text-center flex justify-center items-center">
+            95%</h3>
+
+          <div class="card-body text-center items-center">
+            <h2 class="card-title text-xl font-semibold">
+              Experienced Coach
+
+            </h2>
+            <p class="text[16px] opacity-70">We have some world class coaches you can get best output from them.
+            </p>
+
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="text-center flex justify-center items-center card  bg-base-100">
+
+          <!-- <figure><img src="Images/circlered.png" alt="Shoes" /></figure> -->
+          <h3
+            class=" text-3xl font-extrabold bg-[url('Images/circleyellow.png')] bg-center bg-cover bg-no-repeat w-28 h-28 text-center flex justify-center items-center">
+            90%</h3>
+
+          <div class="card-body text-center items-center">
+            <h2 class="card-title text-xl font-semibold">
+              Senior Player
+
+            </h2>
+            <p class="text[16px] opacity-70">We have lots of senior players, They will guide you throughout your
+              journey.
+            </p>
+
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="text-center flex justify-center items-center card  bg-base-100">
+
+          <!-- <figure><img src="Images/circlered.png" alt="Shoes" /></figure> -->
+          <h3
+            class=" text-3xl font-extrabold bg-[url('Images/circleblue.png')] bg-center bg-cover bg-no-repeat w-28 h-28 text-center flex justify-center items-center">
+            80%</h3>
+
+          <div class="card-body text-center items-center">
+            <h2 class="card-title text-xl font-semibold">
+              Training Ground
+
+            </h2>
+            <p class="text[16px] opacity-70">We have world class Training ground where you can have best experience.
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- program section -->
+    <section class="max-w-6xl lg:mx-auto mt-20">
+      <div class="text-center w-8/12 mx-auto space-y-3">
+        <h2 class="text-[22px] lg:text-4xl font-extrabold">Program Sections</h2>
+        <p class="text-[16px] font-normal opacity-70">Successful organizations understand the importance of
+          implementation, not just strategy, and, moreover, recognize the crucial role of their people in this process.
+        </p>
+      </div>
+      <div class="grid grid-rows-1 lg:grid-cols-2 mt-5">
+
+        <div class="relative m-2">
+          <div class="">
+            <img src="Images/2.png" alt="">
+          </div>
+
+          <div class="absolute bg-[#13131280] rounded-xl w-full lg:w-[560px] h-full lg:h-[330px] top-0  ">
+            <div class="p-6 ">
+              <h2 class="text-2xl lg:text-4xl text-white font-extrabold mb-5 lg:mb-8 mt-0 lg:mt-20">Junior Program</h2>
+              <p class="text-[14px] lg:text-[16px] lg:font-medium text-white opacity-70 mb-8 lg:mb-8">For junior, We
+                have advanced level training and we also focus on basic very affectionately</p>
               <button class="btn bg-[#FF4240] border-none text-white mb-20 ">Register Now!</button>
-              </div>
             </div>
           </div>
-          <div class="relative m-2">
-            <div class="">
-                <img src="Images/3.png" alt="">
-            </div>
-                
-              <div class="absolute bg-[#13131280] rounded-xl w-full lg:w-[560px] h-full lg:h-[330px] top-0  ">
-              <div class="p-6 ">
-                <h2 class="text-xl lg:text-3xl text-white font-extrabold mb-5 lg:mb-8  mt-0 lg:mt-20">Teenager Program</h2>
-              <p class="text-[14px] lg:text-[16px] lg:font-medium text-white opacity-70 mb-3  lg:mb-8">For teenager, We have advanced level training and tactics we also focus to make them future star</p>
-              <button class="btn bg-[#FF4240] border-none text-white">Register Now!</button>
-              </div>
-            </div>
-          </div>
-          
-          
         </div>
         <div class="relative m-2">
           <div class="">
-              <img class="h-[220px] lg:h-full" src="Images/4.png" alt="">
+            <img src="Images/3.png" alt="">
           </div>
-              
-            <div class="absolute bg-[#13131280] rounded-md lg:rounded-xl w-full lg:w-[1136px] h-full lg:h-[437px] top-0  ">
+
+          <div class="absolute bg-[#13131280] rounded-xl w-full lg:w-[560px] h-full lg:h-[330px] top-0  ">
             <div class="p-6 ">
-              <h2 class="text-xl lg:text-3xl text-white font-extrabold mb-5 lg:mb-8 mt-0 lg:mt-44">Professional Program</h2>
-            <p class="text-[14px] lg:text-[16px] lg:font-medium text-white opacity-70 mb-5 lg:mb-8"> We are participating in international level so if you want to star a career in Hockey feel free to join us.</p>
-            <button class="btn bg-[#FF4240] border-none text-white">Register Now!</button>
+              <h2 class="text-xl lg:text-3xl text-white font-extrabold mb-5 lg:mb-8  mt-0 lg:mt-20">Teenager Program
+              </h2>
+              <p class="text-[14px] lg:text-[16px] lg:font-medium text-white opacity-70 mb-3  lg:mb-8">For teenager, We
+                have advanced level training and tactics we also focus to make them future star</p>
+              <button class="btn bg-[#FF4240] border-none text-white">Register Now!</button>
             </div>
           </div>
         </div>
-      </section>
-      <!-- product section -->
-      <section class=" max-w-6xl lg:mx-auto mt-20 ">
-        
-        <div class="text-center w-8/12 mx-auto space-y-3 mb-10">
-          <h2 class="text-[22px] lg:text-4xl font-extrabold">Our New Products</h2>
-          <p class="text-[16px] font-normal opacity-70">Our plan is to lead the public with new products rather than ask them what kind of products they want.</p>
+
+
+      </div>
+      <div class="relative m-2">
+        <div class="">
+          <img class="h-[220px] lg:h-full" src="Images/4.png" alt="">
         </div>
 
-        <div class="grid gap-5 grid-rows-1 lg:grid-cols-2">
+        <div class="absolute bg-[#13131280] rounded-md lg:rounded-xl w-full lg:w-[1136px] h-full lg:h-[437px] top-0  ">
+          <div class="p-6 ">
+            <h2 class="text-xl lg:text-3xl text-white font-extrabold mb-5 lg:mb-8 mt-0 lg:mt-44">Professional Program
+            </h2>
+            <p class="text-[14px] lg:text-[16px] lg:font-medium text-white opacity-70 mb-5 lg:mb-8"> We are
+              participating in international level so if you want to star a career in Hockey feel free to join us.</p>
+            <button class="btn bg-[#FF4240] border-none text-white">Register Now!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product section -->
+    <section class=" max-w-6xl lg:mx-auto mt-20 ">
+
+      <div class="text-center w-8/12 mx-auto space-y-3 mb-10">
+        <h2 class="text-[22px] lg:text-4xl font-extrabold">Our New Products</h2>
+        <p class="text-[16px] font-normal opacity-70">Our plan is to lead the public with new products rather than ask
+          them what kind of products they want.</p>
+      </div>
+
+      <div class="grid gap-5 grid-rows-1 lg:grid-cols-2">
         <!-- card 1 -->
         <div class="card lg:card-side bg-base-100 shadow-xl lg:pl-4">
-          <figure><img class="w-11/12 lg:w-[573px] pt-3 lg:pt-0" src="Images/5.png" alt="Album"/></figure>
+          <figure><img class="w-11/12 lg:w-[573px] pt-3 lg:pt-0" src="Images/5.png" alt="Album" /></figure>
           <div class="card-body">
 
             <div class="flex space-x-3">
-                <div class="flex space-x-2">
-                  <div><i class="fa-solid fa-star text-yellow-400"></i></div>
-                  <div class="text-gray-400">5.0</div>
-                </div>
-                <div class="flex space-x-2">
-                  <div><i class="fa-solid fa-eye text-gray-400"></i></div>
-                  <div class="text-gray-400">20</div>
-                </div>
-                <div class="flex space-x-2">
-                  <div><i class="fa-regular fa-heart text-gray-400"></i></div>
-                  <div class="text-gray-400">200</div>
-                </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-solid fa-star text-yellow-400"></i></div>
+                <div class="text-gray-400">5.0</div>
+              </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-solid fa-eye text-gray-400"></i></div>
+                <div class="text-gray-400">20</div>
+              </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-regular fa-heart text-gray-400"></i></div>
+                <div class="text-gray-400">200</div>
+              </div>
             </div>
 
             <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
@@ -262,22 +284,22 @@
         </div>
         <!-- card 2 -->
         <div class="card lg:card-side bg-base-100 shadow-xl lg:pl-4">
-          <figure><img class="w-11/12 lg:w-[573px] pt-3 lg:pt-0" src="Images/6.png" alt="Album"/></figure>
+          <figure><img class="w-11/12 lg:w-[573px] pt-3 lg:pt-0" src="Images/6.png" alt="Album" /></figure>
           <div class="card-body">
 
             <div class="flex space-x-3">
-                <div class="flex space-x-2">
-                  <div><i class="fa-solid fa-star text-yellow-400"></i></div>
-                  <div class="text-gray-400">5.0</div>
-                </div>
-                <div class="flex space-x-2">
-                  <div><i class="fa-solid fa-eye text-gray-400"></i></div>
-                  <div class="text-gray-400">20</div>
-                </div>
-                <div class="flex space-x-2">
-                  <div><i class="fa-regular fa-heart text-gray-400"></i></div>
-                  <div class="text-gray-400">200</div>
-                </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-solid fa-star text-yellow-400"></i></div>
+                <div class="text-gray-400">5.0</div>
+              </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-solid fa-eye text-gray-400"></i></div>
+                <div class="text-gray-400">20</div>
+              </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-regular fa-heart text-gray-400"></i></div>
+                <div class="text-gray-400">200</div>
+              </div>
             </div>
 
             <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
@@ -295,22 +317,22 @@
         </div>
         <!-- card 3 -->
         <div class="card lg:card-side bg-base-100 shadow-xl lg:pl-4">
-          <figure><img class="w-11/12 lg:w-[573px] pt-3 lg:pt-0" src="Images/7.png" alt="Album"/></figure>
+          <figure><img class="w-11/12 lg:w-[573px] pt-3 lg:pt-0" src="Images/7.png" alt="Album" /></figure>
           <div class="card-body">
 
             <div class="flex space-x-3">
-                <div class="flex space-x-2">
-                  <div><i class="fa-solid fa-star text-yellow-400"></i></div>
-                  <div class="text-gray-400">5.0</div>
-                </div>
-                <div class="flex space-x-2">
-                  <div><i class="fa-solid fa-eye text-gray-400"></i></div>
-                  <div class="text-gray-400">20</div>
-                </div>
-                <div class="flex space-x-2">
-                  <div><i class="fa-regular fa-heart text-gray-400"></i></div>
-                  <div class="text-gray-400">200</div>
-                </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-solid fa-star text-yellow-400"></i></div>
+                <div class="text-gray-400">5.0</div>
+              </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-solid fa-eye text-gray-400"></i></div>
+                <div class="text-gray-400">20</div>
+              </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-regular fa-heart text-gray-400"></i></div>
+                <div class="text-gray-400">200</div>
+              </div>
             </div>
 
             <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
@@ -328,22 +350,22 @@
         </div>
         <!-- card 4 -->
         <div class="card lg:card-side bg-base-100 shadow-xl lg:pl-4">
-          <figure><img class="w-11/12 lg:w-[573px] pt-3 lg:pt-0" src="Images/8.png" alt="Album"/></figure>
+          <figure><img class="w-11/12 lg:w-[573px] pt-3 lg:pt-0" src="Images/8.png" alt="Album" /></figure>
           <div class="card-body">
 
             <div class="flex space-x-3">
-                <div class="flex space-x-2">
-                  <div><i class="fa-solid fa-star text-yellow-400"></i></div>
-                  <div class="text-gray-400">5.0</div>
-                </div>
-                <div class="flex space-x-2">
-                  <div><i class="fa-solid fa-eye text-gray-400"></i></div>
-                  <div class="text-gray-400">20</div>
-                </div>
-                <div class="flex space-x-2">
-                  <div><i class="fa-regular fa-heart text-gray-400"></i></div>
-                  <div class="text-gray-400">200</div>
-                </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-solid fa-star text-yellow-400"></i></div>
+                <div class="text-gray-400">5.0</div>
+              </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-solid fa-eye text-gray-400"></i></div>
+                <div class="text-gray-400">20</div>
+              </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-regular fa-heart text-gray-400"></i></div>
+                <div class="text-gray-400">200</div>
+              </div>
             </div>
 
             <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
@@ -361,22 +383,22 @@
         </div>
         <!-- card 5 -->
         <div class="card lg:card-side bg-base-100 shadow-xl lg:pl-4">
-          <figure><img class="w-11/12 lg:w-[573px] pt-3 lg:pt-0" src="Images/9.png" alt="Album"/></figure>
+          <figure><img class="w-11/12 lg:w-[573px] pt-3 lg:pt-0" src="Images/9.png" alt="Album" /></figure>
           <div class="card-body">
 
             <div class="flex space-x-3">
-                <div class="flex space-x-2">
-                  <div><i class="fa-solid fa-star text-yellow-400"></i></div>
-                  <div class="text-gray-400">5.0</div>
-                </div>
-                <div class="flex space-x-2">
-                  <div><i class="fa-solid fa-eye text-gray-400"></i></div>
-                  <div class="text-gray-400">20</div>
-                </div>
-                <div class="flex space-x-2">
-                  <div><i class="fa-regular fa-heart text-gray-400"></i></div>
-                  <div class="text-gray-400">200</div>
-                </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-solid fa-star text-yellow-400"></i></div>
+                <div class="text-gray-400">5.0</div>
+              </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-solid fa-eye text-gray-400"></i></div>
+                <div class="text-gray-400">20</div>
+              </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-regular fa-heart text-gray-400"></i></div>
+                <div class="text-gray-400">200</div>
+              </div>
             </div>
 
             <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
@@ -394,22 +416,22 @@
         </div>
         <!-- card 6 -->
         <div class="card lg:card-side bg-base-100 shadow-xl lg:pl-4">
-          <figure><img class="w-11/12 lg:w-[573px] pt-3 lg:pt-0" src="Images/10.png" alt="Album"/></figure>
+          <figure><img class="w-11/12 lg:w-[573px] pt-3 lg:pt-0" src="Images/10.png" alt="Album" /></figure>
           <div class="card-body">
 
             <div class="flex space-x-3">
-                <div class="flex space-x-2">
-                  <div><i class="fa-solid fa-star text-yellow-400"></i></div>
-                  <div class="text-gray-400">5.0</div>
-                </div>
-                <div class="flex space-x-2">
-                  <div><i class="fa-solid fa-eye text-gray-400"></i></div>
-                  <div class="text-gray-400">20</div>
-                </div>
-                <div class="flex space-x-2">
-                  <div><i class="fa-regular fa-heart text-gray-400"></i></div>
-                  <div class="text-gray-400">200</div>
-                </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-solid fa-star text-yellow-400"></i></div>
+                <div class="text-gray-400">5.0</div>
+              </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-solid fa-eye text-gray-400"></i></div>
+                <div class="text-gray-400">20</div>
+              </div>
+              <div class="flex space-x-2">
+                <div><i class="fa-regular fa-heart text-gray-400"></i></div>
+                <div class="text-gray-400">200</div>
+              </div>
             </div>
 
             <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
@@ -425,58 +447,149 @@
             </div>
           </div>
         </div>
-        
+
+    </section>
+    <!-- get in touch section -->
+    <section class="max-w-6xl lg:mx-auto mt-20">
+      <div class="text-center w-8/12 mx-auto space-y-3 mb-10">
+        <h2 class="text-[22px] lg:text-4xl font-extrabold">Get In Touch</h2>
+        <p class="text-[16px] font-normal opacity-70">Our plan is to lead the public with new experience.Stay connected
+          with us more exciting things are coming.</p>
+      </div>
+    </section>
+    <section class="max-w-6xl lg:mx-auto mt-20 grid grid-cols-1 lg:grid-cols-2 gap-0">
+
+      <div>
+
+        <div class="pl-0 lg:pl-10 mx-2 mb-10">
+          <div class="bg-[#BCED6D1A] w-full lg:w-[374px] h-[216px] rounded-xl">
+            <div class="ml-5">
+              <img class="pt-10 pb-10" src="Images/Group 1171275317.png" alt="">
+              <p class="text-sm opacity-70">Phone Number :</p>
+              <p class=" text-xl font-extrabold">(+62) 123-321-543</p>
+            </div>
+          </div>
+          <div class="bg-[#BCED6D1A] w-full lg:w-[374px] h-[216px] rounded-xl mt-3">
+            <div class="ml-5">
+              <img class="pt-10 pb-10" src="Images/Group 1171275318.png" alt="">
+              <p class="text-sm opacity-70">Email : </p>
+              <p class=" text-xl font-extrabold">hockeys@support.com</p>
+            </div>
+          </div>
+          <div class="bg-[#BCED6D1A] w-full lg:w-[374px] h-[216px] rounded-xl mt-3">
+            <div class="ml-5">
+              <img class="pt-10 pb-10" src="Images/Group 1171275321.png" alt="">
+              <p class="text-sm opacity-70">Location : </p>
+              <p class=" text-xl font-extrabold">152/1 Mohakhali Wireless Gate</p>
+            </div>
+          </div>
+          </div>
+
+      </div>
+
+
+
+    <div class="mx-2 ">
+      <div class="grid gap-6 grid-rows-1 lg:grid-cols-2">
+        <div class="">
+          <label class="form-control w-full">
+            <div class="label">
+              <span class="label-text text-xl font-semibold">Your Name</span>
+            </div>
+            <input type="text" placeholder="Enter your name" class="input bg-slate-100 w-full " />
+            
+          </label>
+        </div>
+        <div>
+          <label class="form-control w-full">
+            <div class="label">
+              <span class="label-text text-xl font-semibold">Your Email</span>
+            </div>
+            <input type="text" placeholder="Enter your email" class="input bg-slate-100 w-full " />
+            
+          </label>
+        </div>
+        <div>
+          <label class="form-control w-full">
+            <div class="label">
+              <span class="label-text text-xl font-semibold">Subject</span>
+            </div>
+            <input type="text" placeholder="Enter your subject" class="input bg-slate-100 w-full " />
+            
+          </label>
+        </div>
+        <div>
+          <label class="form-control w-full">
+            <div class="label">
+              <span class="label-text text-xl font-semibold">Phone Number</span>
+            </div>
+            <input type="text" placeholder="Enter your phone number" class="input bg-slate-100 w-full " />
+            
+          </label>
        
+        </div>
+      </div>
+      <div class="mt-5">
+      <label class="form-control w-full">
+        <div class="label">
+          <span class="label-text text-xl font-semibold">Message</span>
+        </div>
+        <div class="col-span-2"><textarea class="textarea bg-slate-100 w-full  h-80" placeholder="Write your message"></textarea></div>
         
-        
-        
-
-
-      </section>
+      </label>
+    </div>
+    <button class="btn w-full bg-[#FF4240] mt-5 text-xl font-semibold text-white">Send Message</button>
+    </div>   
+  </div>
+    
      
-    </main>
+      
+     </section>
 
-    <footer class="footer p-10 bg-black mt-20">
-      <aside class="lg:pl-4 text-white">
-        <h3 class="text-3xl font-extrabold mb-4">Get In Touch</h3>
-        <p class="text-[16px] font-medium opacity-70 mb-4">Feel free to connect with us. We provide our service at best level</p>
-        <div class="flex gap-2 opacity-70">
-          <div><i class="fa-regular fa-envelope text-red-600"></i></div>
-          <div>hockeys@support.com</div>
-        </div>
-        <div class="flex gap-2 opacity-70">
-          <div><i class="fa-solid fa-phone text-red-600"></i></div>
-          <div>(+62) 123-321-543</div>
-        </div>
-      </aside> 
-      <div class="grid grid-cols-2 gap-20">
-        <div class="text-white">
-        <header class="">Company</header> 
-        <p  class=" opacity-70">About us</p> 
-        <p  class=" opacity-70">Leadership</p>
-        <p  class=" opacity-70">Careers</p>
-        <p  class=" opacity-70">News & Article</p>
-        <p  class="opacity-70">Legal Notice</p>
-      </div> 
+  </main>
+
+  <footer class="footer p-10 bg-black mt-20">
+    <aside class="lg:pl-4 text-white">
+      <h3 class="text-2xl lg:text-3xl font-extrabold mb-4">Get In Touch</h3>
+      <p class="text-[16px] font-medium opacity-70 mb-4">Feel free to connect with us. We provide our service at best
+        level</p>
+      <div class="flex gap-2 opacity-70">
+        <div><i class="fa-regular fa-envelope text-red-600"></i></div>
+        <div>hockeys@support.com</div>
+      </div>
+      <div class="flex gap-2 opacity-70">
+        <div><i class="fa-solid fa-phone text-red-600"></i></div>
+        <div>(+62) 123-321-543</div>
+      </div>
+    </aside>
+    <div class="grid grid-cols-2 gap-20">
       <div class="text-white">
-        <header class="">Support</header> 
+        <header class="">Company</header>
+        <p class=" opacity-70">About us</p>
+        <p class=" opacity-70">Leadership</p>
+        <p class=" opacity-70">Careers</p>
+        <p class=" opacity-70">News & Article</p>
+        <p class="opacity-70">Legal Notice</p>
+      </div>
+      <div class="text-white">
+        <header class="">Support</header>
         <p class=" opacity-70">Help Center</p>
         <p class=" opacity-70">FAQ</p>
         <p class="opacity-70">Ticket Support</p>
         <p class=" opacity-70">Contact us</p>
-      </div> 
-    </div>
-    <div class="grid grid-rows-1 items-center">
-    <div class="text-white">
-      <header class="">Services</header> 
-          <p  class=" opacity-70">Academy</p>
-          <p  class=" opacity-70">Group Lesson</p>
-          <p  class=" opacity-70">Private Lesson</p>
-          <p  class="opacity-70">Holydays for kids</p>
-          <p  class="opacity-70">Holydays for adults</p>
       </div>
     </div>
-    </footer>
+    <div class="grid grid-rows-1 items-center">
+      <div class="text-white">
+        <header class="">Services</header>
+        <p class=" opacity-70">Academy</p>
+        <p class=" opacity-70">Group Lesson</p>
+        <p class=" opacity-70">Private Lesson</p>
+        <p class="opacity-70">Holydays for kids</p>
+        <p class="opacity-70">Holydays for adults</p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
